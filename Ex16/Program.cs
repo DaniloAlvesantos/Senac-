@@ -6,8 +6,8 @@ i = 1;
 
 do
 {
-    Fat = Fat * i;
-    i = i + 1;
+    Fat *= i;
+    i++;
 }
 while(i <= n);
 
