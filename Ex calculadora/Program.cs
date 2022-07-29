@@ -31,7 +31,12 @@ if( opc == 3)
 }
 if(opc == 4)
 {
-    r = n1 / n2;
-    Console.WriteLine("Resultado = " + r);
+    if (n2 == 0)
+        Console.WriteLine("ERRO !! Não é possivel dividir por 0");
+    else
+    {
+        r = n1 / n2;
+        Console.WriteLine("Resultado = " + r);
+    }
 }
 
