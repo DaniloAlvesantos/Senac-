@@ -12,13 +12,13 @@ for( i = 0; i <= 9; i++)
     if (i % 2 == 0)
         b[i] = a[i] * 5;
     else
-        b[i] = a[i] + 3;
+        b[i] = a[i] + 5 ;
     
 Console.WriteLine();
 
 for(i = 0; i <= 9; i++)
 {
-    Console.WriteLine("A[{0}] = {1,4} /", i, a[i]);
-    Console.WriteLine("B[{0}] = {1,4}", i, b[i]);
+    Console.Write("A[{0}] = {1,4} / ", i, a[i]);
+    Console.Write("B[{0}] = {1,4}", i, b[i]);
     Console.WriteLine();
 }
