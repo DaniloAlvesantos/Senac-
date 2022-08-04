@@ -10,7 +10,7 @@ for(i = 0; i <= 4; i++)
 
 for(i = 0; i <= 3; i++)
     for(j = i + 1; j <= 4; j++)
-        if (nome[j].CompareTo(nome[j]) > 0)
+        if (nome[i].CompareTo(nome[j]) > 0)
         {
             x = nome[i];
             nome[i] = nome[j];
@@ -18,7 +18,7 @@ for(i = 0; i <= 3; i++)
         }
 
 Console.WriteLine("Lista de nomes ordenada");
-Console.ReadLine();
+Console.WriteLine();
 
 for(i = 0; i <= 4; i++)
     Console.WriteLine(nome[i]);
